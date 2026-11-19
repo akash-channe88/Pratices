@@ -1,4 +1,4 @@
-# workflow
+ # workflow
 name: Hello
 
 # On tells when the workflow should run (Give indentation by tab) 
@@ -10,10 +10,10 @@ on:
 
 jobs:
 # 1st job (give indetation )
-say-hello:
+  say-hello:
  #creates an emphemal container with Ubuntu running
- runs-on: ubuntu-latest
- steps:
+   runs-on: ubuntu-latest
+   steps:
      - name: say hello to everyone
        run: echo "hello desto"
        
