@@ -1,9 +1,9 @@
 # workflow
-name:Hello
+name: Hello
 
 # On tells when the workflow should run (Give indentation by tab) 
 on:
-    workflow_dispatch;
+   workflow_dispatch
 
 # job tells what the workflow should do , there can be one or more then one jobs hence we write jobs 
 # jobs is an object so needs indentation
